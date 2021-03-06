@@ -11,7 +11,8 @@ When a Java program starts up, one thread begins running immediately. This is us
 It is the thread from which other “child” threads will be spawned.
 Often, it must be the last thread to finish execution because it performs various shutdown actions
 <h2>Flow diagram :</h2>
-![Flow diagram] (https://media.geeksforgeeks.org/wp-content/uploads/main-thread-in-java.jpeg)
+![Flow diagram] 
+(https://media.geeksforgeeks.org/wp-content/uploads/main-thread-in-java.jpeg)
 
 main thread in java
 
