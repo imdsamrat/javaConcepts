@@ -16,7 +16,7 @@ Often, it must be the last thread to finish execution because it performs variou
 
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-
+![Image of Yaktocat](https://media.geeksforgeeks.org/wp-content/uploads/main-thread-in-java.jpeg)
 main thread in java
 
 How to control Main thread
