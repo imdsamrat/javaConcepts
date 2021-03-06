@@ -2,22 +2,22 @@
 
 Java provides built-in support for multithreaded programming. A multi-threaded program contains two or more parts that can run concurrently. Each part of such a program is called a thread, and each thread defines a separate path of execution.
 
-<h2>Main Thread</h2>
+<h3>Main Thread</h3>
 
 When a Java program starts up, one thread begins running immediately. This is usually called the main thread of our program, because it is the one that is executed when our program begins.
 
-<h2>Properties :</h2>
+<h3>Properties :</h3>
 
 It is the thread from which other “child” threads will be spawned.
 Often, it must be the last thread to finish execution because it performs various shutdown actions
-<h2>Flow diagram :</h2>
+<h3>Flow diagram :</h3>
 
 <div align="center">
 
 ![Flow Diagram](https://media.geeksforgeeks.org/wp-content/uploads/main-thread-in-java.jpeg)
 </div>
 
-<h2>How to control Main thread</h2>
+<h3>How to control Main thread</h3>
 
 The main thread is created automatically when our program is started. To control it we must obtain a reference to it. This can be done by calling the method currentThread( ) which is present in Thread class. This method returns a reference to the thread on which it is called. The default priority of Main thread is 5 and for all remaining user threads priority will be inherited from parent to child.
 
