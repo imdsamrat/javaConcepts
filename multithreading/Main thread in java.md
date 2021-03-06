@@ -17,9 +17,7 @@ Often, it must be the last thread to finish execution because it performs variou
 ![Flow Diagram](https://media.geeksforgeeks.org/wp-content/uploads/main-thread-in-java.jpeg)
 </div>
 
-main thread in java
-
-How to control Main thread
+<h2>How to control Main thread</h2>
 
 The main thread is created automatically when our program is started. To control it we must obtain a reference to it. This can be done by calling the method currentThread( ) which is present in Thread class. This method returns a reference to the thread on which it is called. The default priority of Main thread is 5 and for all remaining user threads priority will be inherited from parent to child.
 
@@ -84,7 +82,7 @@ class ChildThread extends Thread
     } 
 } 
 ```
-```text 
+```
 Output:
 
 Current thread: main
@@ -105,11 +103,11 @@ Child thread
 Child thread
 ```
 
-Relation between the main() method and main thread in Java
+<h3>Relation between the main() method and main thread in Java</h3>
 
 For each program, a Main thread is created by JVM(Java Virtual Machine). The “Main” thread first verifies the existence of the main() method, and then it initializes the class. Note that from JDK 6, main() method is mandatory in a standalone java application.
 
-Deadlocking with use of Main Thread(only single thread)
+<h3>Deadlocking with use of Main Thread(only single thread)</h3>
 
 We can create a deadlock by just using Main thread, i.e. by just using a single thread. The following java program demonstrate this.
 
@@ -139,8 +137,10 @@ public class Test
     } 
 } 
 ```
+```
 Output:
 
 Entering into Deadlock
 Explanation :
 The statement “Thread.currentThread().join()”, will tell Main thread to wait for this thread(i.e. wait for itself) to die. Thus Main thread wait for itself to die, which is nothing but a deadlock.
+```
