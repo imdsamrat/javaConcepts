@@ -13,7 +13,8 @@ Often, it must be the last thread to finish execution because it performs variou
 <h2>Flow diagram :</h2>
 
 <div align="center">
-	![Flow Diagram](https://media.geeksforgeeks.org/wp-content/uploads/main-thread-in-java.jpeg)
+
+![Flow Diagram](https://media.geeksforgeeks.org/wp-content/uploads/main-thread-in-java.jpeg)
 </div>
 
 main thread in java
