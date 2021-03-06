@@ -12,8 +12,6 @@ It is the thread from which other “child” threads will be spawned.
 Often, it must be the last thread to finish execution because it performs various shutdown actions
 Flow diagram :
 
-
-
 main thread in java
 
 How to control Main thread
@@ -101,7 +99,7 @@ Child thread
 Child thread
 Child thread
 ```
-```
+
 Relation between the main() method and main thread in Java
 
 For each program, a Main thread is created by JVM(Java Virtual Machine). The “Main” thread first verifies the existence of the main() method, and then it initializes the class. Note that from JDK 6, main() method is mandatory in a standalone java application.
@@ -109,7 +107,7 @@ For each program, a Main thread is created by JVM(Java Virtual Machine). The “
 Deadlocking with use of Main Thread(only single thread)
 
 We can create a deadlock by just using Main thread, i.e. by just using a single thread. The following java program demonstrate this.
-```
+
 ```java
 // Java program to demonstrate deadlock 
 // using Main thread 
