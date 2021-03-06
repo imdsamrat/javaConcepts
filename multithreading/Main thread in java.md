@@ -2,7 +2,7 @@
 
 Java provides built-in support for multithreaded programming. A multi-threaded program contains two or more parts that can run concurrently. Each part of such a program is called a thread, and each thread defines a separate path of execution.
 
-<div align="center">Main Thread</div>
+<h2>Main Thread</h2>
 
 When a Java program starts up, one thread begins running immediately. This is usually called the main thread of our program, because it is the one that is executed when our program begins.
 
