@@ -60,8 +60,6 @@ Constant type: Waiting
 Declaration: public static final Thread.State WAITING
 Description: Thread state for a waiting thread. Thread state for a waiting thread. A thread is in the waiting state due to calling one of the following methods:
 
-
-
 Object.wait with no timeout
 Thread.join with no timeout
 LockSupport.park
@@ -80,7 +78,7 @@ Constant type: Terminated
 Declaration: public static final Thread.State TERMINATED
 Description: Thread state for a terminated thread. The thread has completed execution.
 
-
+```java
 // Java program to demonstrate thread states 
 class thread implements Runnable 
 { 
@@ -167,8 +165,9 @@ public class Test implements Runnable
         System.out.println("State of thread2 when it has finished it's execution - " +  
             thread2.getState()); 
     } 
-      
+
 } 
+```
 Output:
 
 State of thread1 after creating it - NEW
